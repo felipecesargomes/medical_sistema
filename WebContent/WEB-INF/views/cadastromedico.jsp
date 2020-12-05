@@ -54,7 +54,7 @@
 		</section>
 	</main>
 
-	<footer>Copyright - Felipe</footer>
+	<footer>Copyright</footer>
 
 </body>
 
