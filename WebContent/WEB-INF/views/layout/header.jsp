@@ -10,10 +10,10 @@
 <header class="topo_pagina">
     <nav>
       <ul>
-        <li><a href="">Início</a></li>
-        <li><a href="">Cadastrar Médico</a></li>
-        <li><a href="">Listar Médicos</a></li>
-        <li><a href="">Cadastrar Paciente</a></li>
+        <li><a href="index.jsp">Início</a></li>
+        <li><a href="entrada?acao=CadastroMedico">Cadastrar Médico</a></li>
+        <li><a href="entrada?acao=ListarMedicos">Listar Médicos</a></li>
+        <li><a href="entrada?acao=CadastroPaciente">Cadastrar Paciente</a></li>
         <li><a href="">Listar Pacientes</a></li>
         <li><a href="">Cadastrar Convênios</a></li>
         <li><a href="">Listar Convênios</a></li>

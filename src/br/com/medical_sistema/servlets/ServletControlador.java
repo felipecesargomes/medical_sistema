@@ -20,7 +20,8 @@ public class ServletControlador extends HttpServlet {
 		String nameClass = "br.com.medical_sistema.controlador." + acao;
 		String name = null;
 		try {
-			Class classe = Class.forName(nameClass);
+			Class<?> classe = Class.forName(nameClass);
+			@SuppressWarnings("deprecation")
 			Acao action = (Acao) classe.newInstance();
 			name = action.executar(request, response);
 		} catch (ClassNotFoundException e) {

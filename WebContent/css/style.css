@@ -1,8 +1,14 @@
+html {
+	height: 100%;
+	position: relative;
+}
+
 body {
 	margin: 0;
 	background-color: #ccc;
 	position: relative;
 	padding-bottom: 50px;
+	height: 100%;
 }
 
 .topo_pagina {
@@ -11,6 +17,11 @@ body {
 	background-size: cover;
 	background-position: center right;
 	box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.conteudo {
+	position: relative;
+	height: 100%;
 }
 
 .topo_pagina ul {

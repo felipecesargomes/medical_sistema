@@ -5,7 +5,7 @@ public class Medico {
 	private long id = 1L;
 	private String nome;
 	private String crm;
-	private String Situacao;
+	private String situacao;
 	
 	public long getId() {
 		return id;
@@ -26,10 +26,10 @@ public class Medico {
 		this.crm = crm;
 	}
 	public String getSituacao() {
-		return Situacao;
+		return situacao;
 	}
 	public void setSituacao(String situacao) {
-		Situacao = situacao;
+		this.situacao = situacao;
 	}
 	
 }

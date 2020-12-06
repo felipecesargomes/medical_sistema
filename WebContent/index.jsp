@@ -16,38 +16,41 @@
 
 	<%@ include file="WEB-INF/views/layout/header.jsp"%>
 
-	<main>
-		<section class="sec">
-			<div class="cabecalho_login">
-				<h2>Nota de Atualização</h2>
-			</div>
-			<div class="corpo_login">
-				<p>Olá, Fulano.</p>
-				<p>Devido ao COVID-19 nosso horário de funcionamento mudou,
-					agora estamos atendendo das 10hrs até às 18:00hrs, para maior
-					comodidade agende uma consulta em nosso sistema com um de nossos
-					médicos. Estamos atendendo mediante alguns cuidados</p>
-			</div>
-		</section>
-		<section class="sec">
-			<a href="${link }?acao=CadastroMedico">
-				<div class="card card1">
-					<img src="img/card_01.jpg">
-					<p>Cadastro de Médicos</p>
+	<div class="conteudo">
+		<main>
+			<section class="sec">
+				<div class="cabecalho_login">
+					<h2>Nota de Atualização</h2>
 				</div>
-			</a>
-			<div class="card card2">
-				<img src="img/card_02.jpg">
-				<p>Cadastro de Pacientes</p>
-			</div>
-			<div class="card">
-				<img src="img/card_03.jpg">
-				<p>Cadastro de Convênios</p>
-			</div>
-		</section>
-	</main>
+				<div class="corpo_login">
+					<p>Olá, Fulano.</p>
+					<p>Devido ao COVID-19 nosso horário de funcionamento mudou,
+						agora estamos atendendo das 10hrs até às 18:00hrs, para maior
+						comodidade agende uma consulta em nosso sistema com um de nossos
+						médicos. Estamos atendendo mediante alguns cuidados</p>
+				</div>
+			</section>
+			<section class="sec">
+				<a href="${link }?acao=CadastroMedico">
+					<div class="card card1">
+						<img src="img/card_01.jpg">
+						<p>Cadastrar Médico</p>
+					</div>
+				</a> <a href="${link }?acao=CadastroPaciente">
+					<div class="card card2">
+						<img src="img/card_02.jpg">
+						<p>Cadastrar Paciente</p>
+					</div>
+				</a>
+				<div class="card">
+					<img src="img/card-3.jpg">
+					<p>Agendar Consulta</p>
+				</div>
+			</section>
+		</main>
+		<%@ include file="WEB-INF/views/layout/footer.jsp"%>
+	</div>
 
-	<%@ include file="WEB-INF/views/layout/footer.jsp"%>
 
 </body>
 
