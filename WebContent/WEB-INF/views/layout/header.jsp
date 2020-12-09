@@ -14,7 +14,7 @@
         <li><a href="entrada?acao=CadastroMedico">Cadastrar Médico</a></li>
         <li><a href="entrada?acao=ListarMedicos">Listar Médicos</a></li>
         <li><a href="entrada?acao=CadastroPaciente">Cadastrar Paciente</a></li>
-        <li><a href="">Listar Pacientes</a></li>
+        <li><a href="entrada?acao=ListarPacientes">Listar Pacientes</a></li>
         <li><a href="">Cadastrar Convênios</a></li>
         <li><a href="">Listar Convênios</a></li>
       </ul>

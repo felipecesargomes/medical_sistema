@@ -13,8 +13,7 @@
 </head>
 
 <body>
-
-	<%@ include file="WEB-INF/views/layout/header.jsp"%>
+	<c:import url="WEB-INF/views/layout/header.jsp"></c:import>
 
 	<div class="conteudo">
 		<main>
