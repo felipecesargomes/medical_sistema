@@ -18,7 +18,7 @@
       <img src="img/icon.png">
     </header>
     <form action="${link }" method="post">
-      <label id="usr" for="user">Usu√°rio</label>
+      <label id="usr" for="user">Usu·rio</label>
       <input type="text" id="user" name="usuario"><br>
       <label id="snh" for="password">Senha</label>
       <input type="password" id="password" name="senha">
