@@ -3,7 +3,7 @@ Sistema Gerenciador para Médicos criado para auxiliar um pouco no meu aprendiza
 
 O mini-sistema possuí uma camada de segurança para criptografia de senha utilizando a classe MessageDigest do java.security
 
-Para a criação desse sistema utilizei a IDE Eclipse e o container servidor utilizado é o Apache Tomcat v9.0.
+Para a criação desse sistema utilizei a IDE Eclipse e o container servidor Apache Tomcat v9.0. Todo front-end foi desenvolvido utilizando apenas HTML 5 e CSS.
 
 <details>
 <summary>Tecnologias utilizadas na aplicação</summary>
