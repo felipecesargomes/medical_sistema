@@ -31,4 +31,4 @@ Para a criação desse sistema utilizei a IDE Eclipse e o container servidor Apa
 
 #### Tela de Login (com criptografia md5)
 
-<img src="https://github.com/felipecesargomes/medical_sistema/blob/main/WebContent/img/tutorial.gif"></img>
+<img src="https://github.com/felipecesargomes/medical_sistema/blob/main/WebContent/img/login.png"></img>
