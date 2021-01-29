@@ -1,7 +1,7 @@
 # Medical Sistema
 Sistema Gerenciador para Médicos criado para auxiliar um pouco no meu aprendizado em Servlet.
 
-O mini-sistema possuí uma camada de segurança para criptografia de senha utilizando a classe MessageDigest do java.security
+O mini-sistema foi criado com a finalidade de colocar tudo o que eu aprendi através de cursos e materiais na internet.
 
 Para a criação desse sistema utilizei a IDE Eclipse e o container servidor Apache Tomcat v9.0. Todo front-end foi desenvolvido utilizando apenas HTML5/CSS.
 
@@ -26,3 +26,4 @@ Para a criação desse sistema utilizei a IDE Eclipse e o container servidor Apa
 ### Configurando Apache Tomcat
 
 <img src="https://github.com/felipecesargomes/medical_sistema/blob/main/WebContent/img/tutorial.gif"></img>
+
