@@ -23,7 +23,7 @@ Para a criação desse sistema utilizei a IDE Eclipse e o container servidor Apa
 
 <code>git clone https://github.com/felipecesargomes/medical_sistema.git</code>
 
-### Configurando Apache Tomcat
+### Configurando Apache Tomcat manualmente no eclipse
 
 <img src="https://github.com/felipecesargomes/medical_sistema/blob/main/WebContent/img/tutorial.gif"></img>
 
